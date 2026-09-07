@@ -25,6 +25,7 @@
     <modules>
         <module>cql</module>
         <module>cli</module>
+        <module>server</module>
     </modules>
 
     <scm>

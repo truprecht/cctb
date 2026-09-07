@@ -86,5 +86,6 @@ jobs:
       uses: softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b # v3
       with:
         fail_on_unmatched_files: true
-        files:
+        files: |
           cli/target/cctb-cli-*.jar
+          server/target/cctb-server-*.jar
